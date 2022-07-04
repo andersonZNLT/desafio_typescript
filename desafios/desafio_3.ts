@@ -32,8 +32,6 @@ botaoLimpar.addEventListener('click', function () {
  */
 
 
-export class SomaSaldo{} 
-
 const botaoAtualizar = document.getElementById('atualizar-saldo') as HTMLElement;
 const botaoLimpar = document.getElementById('limpar-saldo') as HTMLElement;
 let soma = document.getElementById('soma')! as HTMLInputElement;
